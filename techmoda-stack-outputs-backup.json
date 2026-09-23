@@ -1,0 +1,77 @@
+[
+    {
+        "OutputKey": "SemanticSearchUrl",
+        "OutputValue": "https://osnuqai7pmanu3vzn4py7bmf240amimj.lambda-url.us-east-1.on.aws/",
+        "Description": "S7 Function URL (GET /search?q=...)"
+    },
+    {
+        "OutputKey": "AudioBucketName",
+        "OutputValue": "techmoda-ai-dulce-audio"
+    },
+    {
+        "OutputKey": "TranscribeAudioUrl",
+        "OutputValue": "https://npocld56bfbyszb7ydz4wqc75i0hesob.lambda-url.us-east-1.on.aws/",
+        "Description": "S12 Function URL (POST /transcribe)"
+    },
+    {
+        "OutputKey": "ModerateImageUrl",
+        "OutputValue": "https://jrbaxqiuwh6qecrlfciepzmh7i0mkbkn.lambda-url.us-east-1.on.aws/",
+        "Description": "S2 Function URL (POST /products/{id}/moderate)"
+    },
+    {
+        "OutputKey": "TranslateCatalogUrl",
+        "OutputValue": "https://wdeconim2qb24rpebuqlu6mqvy0dqqbs.lambda-url.us-east-1.on.aws/",
+        "Description": "S4 Function URL (POST /products/{id}/translate)"
+    },
+    {
+        "OutputKey": "GenerateDescriptionUrl",
+        "OutputValue": "https://lgkhywkdb5a4hwwd2a6ofliwii0pnpps.lambda-url.us-east-1.on.aws/",
+        "Description": "S6 Function URL (POST /products/{id}/describe)"
+    },
+    {
+        "OutputKey": "IndexEmbeddingsUrl",
+        "OutputValue": "https://hfkctnw4ip7shbx3jjw6ytdy540fzuyq.lambda-url.us-east-1.on.aws/",
+        "Description": "S7 Function URL (POST /search/index)"
+    },
+    {
+        "OutputKey": "FrontendUrl",
+        "OutputValue": "https://EY4GQMX32F4KJ.cloudfront.net"
+    },
+    {
+        "OutputKey": "ApiUrl",
+        "OutputValue": "https://eewid5i5x5phggm5ibwipbm5qe0rfoey.lambda-url.us-east-1.on.aws/",
+        "Description": "Base API URL (Function URL del router CRUD). Termina en '/'."
+    },
+    {
+        "OutputKey": "FrontendBucketName",
+        "OutputValue": "techmoda-ai-dulce-frontend"
+    },
+    {
+        "OutputKey": "EnrichLabelsUrl",
+        "OutputValue": "https://jcwf3qpe5mg7mts2qybxsatauu0ojqxx.lambda-url.us-east-1.on.aws/",
+        "Description": "S1 Function URL (POST /products/{id}/labels)"
+    },
+    {
+        "OutputKey": "ShoppingAssistantUrl",
+        "OutputValue": "https://pawpoddpjysaafrhip2hj2rp3a0wgyky.lambda-url.us-east-1.on.aws/",
+        "Description": "S8 Function URL (POST /assistant)"
+    },
+    {
+        "OutputKey": "AnalyzeSentimentUrl",
+        "OutputValue": "https://pjq7m3q75qjrnbipf4kx3xi2su0qodhx.lambda-url.us-east-1.on.aws/",
+        "Description": "S3 Function URL (POST /sentiment)"
+    },
+    {
+        "OutputKey": "ProductsTableName",
+        "OutputValue": "techmoda-ai-dulce-Products"
+    },
+    {
+        "OutputKey": "Region",
+        "OutputValue": "us-east-1"
+    },
+    {
+        "OutputKey": "SynthesizeVoiceUrl",
+        "OutputValue": "https://brjbtj62poqk3eghrir6n2u6rq0deomv.lambda-url.us-east-1.on.aws/",
+        "Description": "S5 Function URL (POST /products/{id}/voice)"
+    }
+]
