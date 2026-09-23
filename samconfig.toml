@@ -1,0 +1,21 @@
+# Generado por scripts/setup-mi-stack.sh — esta en .gitignore, no se comitea.
+#
+# IMPORTANTE: no agregues comentarios que repitan la clave de abajo. Varios scripts la extraen
+# con un grep literal y les llegaria basura en vez del nombre.
+version = 0.1
+
+[default.deploy.parameters]
+stack_name = "techmoda-ai-dulce"
+capabilities = "CAPABILITY_IAM CAPABILITY_AUTO_EXPAND"
+confirm_changeset = true
+resolve_s3 = true
+parameter_overrides = []
+image_repositories = []
+s3_prefix = "techmoda-ai-dulce"
+
+[default.build.parameters]
+cached = true
+parallel = true
+
+[default.global.parameters]
+region = "us-east-1"
